@@ -1,31 +1,70 @@
-# Reading Material React Week 2
+# Getting Started with Create React App
 
-## Agenda
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-These are the topics for week 2:
+## Available Scripts
 
-1. [Hooks](https://study.hackyourfuture.net/#/react/react-hooks.md)
-   - **ONLY THE useEffect HOOK**
-2. [API calls in React](https://study.hackyourfuture.net/#/react/api-calls.md)
-   - When to load data
-3. [Client-side routing](https://study.hackyourfuture.net/#/react/routing.md)
-   - React-router
-   - Protected routes
+In the project directory, you can run:
 
-## Important note on React
+### `npm start`
 
-> In the React world there is a huge shift happening since the introduction of 'hooks' in 2018. Before hooks React was built using both class and function components. Currently it is recommended to use only function components in combination with hooks for all of the code you build from now on. When you are going to do research on your own or when you get into your internship you are going to run into class components however. This will be less and less as time goes on and hopefully we can remove this at some point in the future.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-> We at HackYourFuture will only be teaching you the recommended way of building applications and have provided a section in the study book to share the most basic details on how to read class components [here](https://study.hackyourfuture.net/#/react/class-vs-function-components.md). If you encounter class components in your research, try to look for a more up to date tutorial, question, or video. If you encounter class components during your internship, then convert it to a function component. The developers will love you :).
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Week goals
+### `npm test`
 
-Last week we learned the basic building blocks of React and how to think in components. This week we are going to introduce some more advanced techniques to give you even more power!
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Firstly, it is time to work with API's again. In vanilla JavaScript we learned about the fetch mechanism, but when thinking in a component way we need to approach it a little differently. To do this we need to make use of the `useEffect` hook, so let's revisit the [hooks](https://study.hackyourfuture.net/#/react/react-hooks.md) page and read up on the `useEffect` section. With knowledge of the `useEffect` hook we can take a look at the study book [here](https://study.hackyourfuture.net/#/react/api-calls.md) to learn how you can interact with an API using React.
+### `npm run build`
 
-Next, let's look at routing. Because we build single page applications in React, the location in the address bar has no effect on what we should show. When building more advanced applications that becomes a problem, as we want to be able to define different pages. To solve this we use what is called client-side routing, have a look [here](https://study.hackyourfuture.net/#/react/routing.md).
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Finished?
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Are you finished with going through the materials? High five! If you feel ready to get practical, click [here](./MAKEME.md).
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
